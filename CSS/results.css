@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.page {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    height: 575px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.result-item {
+    margin-top: 15px;
+}
+
+.result-item a {
+    display: block; /* Asegura que el enlace del título ocupe toda la línea */
+    font-weight: bold; /* Enfatiza el título */
+    color: blue; /* Color del texto del título */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.result-item a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.link-url {
+    display: block; /* Asegura que la URL esté debajo del título */
+    font-size: 12px; /* Tamaño más pequeño para la URL */
+    color: gray; /* Color de texto para la URL */
+    margin-top: 5px; /* Espacio entre el título y la URL */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.link-url:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.no-results {
+    color: red;
+}
+
+.texto {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.pngs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.button1 {
+    background-color: inherit;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}

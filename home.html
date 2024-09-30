@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchIT</title>
+    <link rel="stylesheet" href="/CSS/home.css">
+</head>
+<body>
+    <div class="pngs">
+        <img src="img/Logo SearchIT.png" alt="SearchIT Logo" style="width: 600px;">
+    </div>
+    <div class="input1">
+        <input type="text" id="inputbusqueda" style="width: 600px; height: 20px;" placeholder="Escribe tu búsqueda...">
+        <button onclick="redirectToResults()" style="width: 120px; height: 25px;" class="button1">Search</button>
+    </div>
+    <h3 style="text-align: center; font-family: Arial, Helvetica, sans-serif; margin-top: 253px;">Stellar Technology 2024 - SearchIT 2024</h3>
+    <script>
+        function redirectToResults() {
+            const query = document.getElementById("inputbusqueda").value;
+            if (query) {
+                // Redirigir a resultados.html pasando el término de búsqueda como parámetro
+                window.location.href = `resultados.html?q=${encodeURIComponent(query)}`;
+            } else {
+                alert("Por favor, ingresa un término de búsqueda.");
+            }
+        }
+    </script>
+</body>
+</html>

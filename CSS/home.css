@@ -1,0 +1,29 @@
+.input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.pngs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.button1 {
+    background-color: inherit;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
